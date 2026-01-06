@@ -1,0 +1,39 @@
+# Project Diva f (1.01)
+# 60 FPS
+[PCSG00074]
+0:0x12582 t1_mov(0, 1)
+0:0x12814 F7EE000A
+
+# Project Diva F 2nd (1.01)
+# 60 FPS
+[PCSG00205]
+0:0xA95C t1_mov(0, 1)
+0:0xAABA F7EE000A
+
+# Project Diva X (1.00)
+# 60 FPS
+[PCSG00683]
+0:0x39240 t1_mov(0, 1)
+0:0x3996E F7EE000A
+
+# Assassin's Creed III: Liberation (1.01)
+# 60 FPS
+[PCSG00116]
+0:0xCBC2 t1_mov(0, 1)
+
+# Miracle Girls Festival (1.00)
+# 60 FPS
+[PCSG00610]
+0:0x4E384 t1_mov(0, 1)
+0:0x4E4E0 F7EE000A
+
+# Project Root (1.00)
+# 60 FPS
+[PCSG00783]
+0:0x1175DC t1_mov(0, 1)
+
+# WipEout 2048
+# 60 FPS
+[PCSC00006]
+0:0x2F5D0A FCF022E8 12E0
+0:0x2F5D4A 8042
