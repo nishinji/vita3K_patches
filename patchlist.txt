@@ -5,133 +5,143 @@
 # The patch feature is experimental and likely to undergo disruptive changes.
 #
 
+# Kidou Senshi Gundam Seed: Battle Destiny [JP 1.01]
+[PCSG00040, eboot.bin, 0x657F506B]
+@FPS
+0:0x72189C a1_mov(0, 0, vblank)
+
+# Puella Magi Madoka Magica: The Battle Pentagram [JP 1.00]
+[PCSG00214, eboot.bin, 0x86F56009]
+@FPS
+0:0x65EE34 a1_mov(0, 0, vblank)
+
 # Jak and Daxter: The Precursor Legacy
 [PCSF00248, eboot.bin, 0x109D6AD5] # [EU 1.00]
 @FPS
-0:0x1BA2E t1_mov(1, 0)
-0:0x1B4B8 t1_mov(0, 1)
+0:0x1BA2E t1_mov(1, vblank - 1)
+0:0x1B4B8 t1_mov(0, vblank)
 [PCSF00247, Jak1.self, 0x109D6AD5] # [EU 1.00]
 @FPS
-0:0x1BA2E t1_mov(1, 0)
-0:0x1B4B8 t1_mov(0, 1)
+0:0x1BA2E t1_mov(1, vblank - 1)
+0:0x1B4B8 t1_mov(0, vblank)
 [PCSA00080, Jak1.self, 0x109D6AD5] # [US 1.00]
 @FPS
-0:0x1BA2E t1_mov(1, 0)
-0:0x1B4B8 t1_mov(0, 1)
+0:0x1BA2E t1_mov(1, vblank - 1)
+0:0x1B4B8 t1_mov(0, vblank)
 
 # Hatsune Miku: Project Diva f
 [PCSB00419, eboot.bin, 0x544807B3] # [EU 1.00]
 @FPS
-0:0x136C4 t1_mov(0, 1)
+0:0x136C4 t1_mov(0, vblank)
 0:0x13948 F7EE000A
 [PCSE00326, eboot.bin, 0x1BA9AC18] # [US 1.00]
 @FPS
-0:0x136C4 t1_mov(0, 1)
+0:0x136C4 t1_mov(0, vblank)
 0:0x13948 F7EE000A
 
 # Hatsune Miku: Project Diva f [JP 1.01]
 [PCSG00074, eboot.bin, 0xD3BDB4F5]
 @FPS
-0:0x12582 t1_mov(0, 1)
+0:0x12582 t1_mov(0, vblank)
 0:0x12814 F7EE000A
 
 # Hatsune Miku: Project Diva F 2nd
 [PCSB00554, eboot.bin, 0xDB737975] # [EU 1.00]
 @FPS
-0:0xA994 t1_mov(0, 1)
+0:0xA994 t1_mov(0, vblank)
 0:0xAAF2 F7EE000A
 [PCSE00434, eboot.bin, 0x31DAC716] # [US 1.00]
 @FPS
-0:0xA994 t1_mov(0, 1)
+0:0xA994 t1_mov(0, vblank)
 0:0xAAF2 F7EE000A
 
 # Hatsune Miku: Project Diva F 2nd [JP 1.01]
 [PCSG00205, eboot.bin, 0x4AAABD3D]
 @FPS
-0:0xA95C t1_mov(0, 1)
+0:0xA95C t1_mov(0, vblank)
 0:0xAABA F7EE000A
 
 # Hatsune Miku: Project Diva F 2nd [ASIA 1.00]
 [PCSH00088, eboot.bin, 0xB499AC54]
 @FPS
-0:0xA994 t1_mov(0, 1)
+0:0xA994 t1_mov(0, vblank)
 0:0xAAF2 F7EE000A
 
 # Hatsune Miku: Project Diva X [JP 1.00]
 [PCSG00683, eboot.bin]
 @FPS
-0:0x39240 t1_mov(0, 1)
+0:0x39240 t1_mov(0, vblank)
 0:0x3996E F7EE000A
 
 # Miracle Girls Festival [JP 1.00]
 [PCSG00610, eboot.bin]
 @FPS
-0:0x4E384 t1_mov(0, 1)
+0:0x4E384 t1_mov(0, vblank)
 0:0x4E4E0 F7EE000A
 
 # Sly Cooper and the Thieviusaccoonus
 [PCSF00269, eboot.bin, 0x15BCA5BA] # [EU 1.00]
 @FPS
-0:0x10C04C t1_mov(0, 1)
+0:0x10C04C t1_mov(0, vblank)
 [PCSF00338, Sly1.self, 0x15BCA5BA] # [EU 1.00]
 @FPS
-0:0x10C04C t1_mov(0, 1)
+0:0x10C04C t1_mov(0, vblank)
 
 # Sly Cooper and the Thieviusaccoonus
 [PCSA00096, eboot.bin, 0x605D1DB1] # [US 1.00]
 @FPS
-0:0x10C04C t1_mov(0, 1)
+0:0x10C04C t1_mov(0, vblank)
 [PCSA00095, Sly1.self, 0x605D1DB1] # [US 1.00]
 @FPS
-0:0x10C104 t1_mov(0, 1)
+0:0x10C104 t1_mov(0, vblank)
 
 # Sly Cooper 2: Band of Thieves
 [PCSF00270, eboot.bin, 0x7288E791] # [EU 1.00]
 @FPS
-0:0x12E63C t1_mov(0, 1)
+0:0x12E63C t1_mov(0, vblank)
 [PCSF00338, Sly2.self, 0x7288E791] # [EU 1.00]
 @FPS
-0:0x12E63C t1_mov(0, 1)
+0:0x12E63C t1_mov(0, vblank)
 
 # Sly Cooper 2: Band of Thieves
 [PCSA00097, eboot.bin, 0xDCD6B8BC] # [US 1.00]
 @FPS
-0:0x12E638 t1_mov(0, 1)
+0:0x12E638 t1_mov(0, vblank)
 [PCSA00095, Sly2.self, 0xDCD6B8BC] # [US 1.00]
 @FPS
-0:0x12E638 t1_mov(0, 1)
+0:0x12E638 t1_mov(0, vblank)
 
 # Sly Cooper 3: Honor Among Thieves [EU 1.00]
 [PCSF00271, eboot.bin, 0xCE18232F]
 @FPS
-0:0x1822EC t1_mov(0, 1)
+0:0x1822EC t1_mov(0, vblank)
 
 # Sly Cooper 3: Honor Among Thieves [US 1.00]
 [PCSA00098, eboot.bin, 0xAC2A8892]
 @FPS
-0:0x1822E8 t1_mov(0, 1)
+0:0x1822E8 t1_mov(0, vblank)
 
 # Sly Cooper: Thieves in Time
 [PCSF00156, eboot.bin, 0xFAC82F85] # [EU 1.01]
 @FPS
-0:0x3228AC t1_mov(0, 1)
+0:0x3228AC t1_mov(0, vblank)
 [PCSF00206, eboot.bin, 0x56380F69] # [EU 1.01]
 @FPS
-0:0x3228AC t1_mov(0, 1)
+0:0x3228AC t1_mov(0, vblank)
 [PCSF00207, eboot.bin, 0xFFF2D9ED] # [EU 1.01]
 @FPS
-0:0x3228AC t1_mov(0, 1)
+0:0x3228AC t1_mov(0, vblank)
 [PCSF00208, eboot.bin, 0xB67BAF52] # [EU 1.01]
 @FPS
-0:0x3228AC t1_mov(0, 1)
+0:0x3228AC t1_mov(0, vblank)
 [PCSF00209, eboot.bin, 0x10EF2E89] # [EU 1.01]
 @FPS
-0:0x3228AC t1_mov(0, 1)
+0:0x3228AC t1_mov(0, vblank)
 
 # Sly Cooper: Thieves in Time [US 1.01]
 [PCSA00068, eboot.bin, 0x008B0E65]
 @FPS
-0:0x3228E4 t1_mov(0, 1)
+0:0x3228E4 t1_mov(0, vblank)
 
 # Wipeout 2048
 [PCSF00007, eboot.bin, 0x17143672] # [EU 1.04]
@@ -156,89 +166,89 @@
 # Assassin's Creed III: Liberation
 [PCSB00074, eboot.bin, 0xBC2441CC] # [EU 1.02]
 @FPS
-0:0xCBC2 t1_mov(0, 1)
+0:0xCBC2 t1_mov(0, vblank)
 [PCSE00053, eboot.bin, 0xBC2441CC] # [US 1.02]
 @FPS
-0:0xCBC2 t1_mov(0, 1)
+0:0xCBC2 t1_mov(0, vblank)
 [PCSG00116, eboot.bin, 0xBC2441CC] # [JP 1.01]
 @FPS
-0:0xCBC2 t1_mov(0, 1)
-
-# Valhalla Knights 3 GOLD [JP 1.05]
-[PCSG00307, eboot.bin, 0x2A62D92D]
-@FPS
-0:0x27172E nop *2
+0:0xCBC2 t1_mov(0, vblank)
 
 # Ys VIII: Lacrimosa of Dana
 [PCSB01128, eboot.bin, 0x804268F1] # [EU 1.02]
 @FPS
-0:0x289620 t1_mov(0, 1)
+0:0x289620 t1_mov(0, vblank)
 [PCSE01103, eboot.bin, 0x804268F1] # [US 1.02]
 @FPS
-0:0x289620 t1_mov(0, 1)
+0:0x289620 t1_mov(0, vblank)
 
 # Ys VIII: Lacrimosa of Dana [JP 1.02]
 [PCSG00881, eboot.bin, 0xC2D25375]
 @FPS
-0:0x285FD0 t1_mov(0, 1)
+0:0x285FD0 t1_mov(0, vblank)
 
 # Ys VIII: Lacrimosa of Dana [ASIA 1.02]
 [PCSH00297, eboot.bin, 0xB4F97187]
 @FPS
-0:0x285834 t1_mov(0, 1)
+0:0x285834 t1_mov(0, vblank)
 
 # Spy Hunter [EU 1.00]
 [PCSB00166, eboot.bin, 0x4D752CEE]
 @FPS
-0:0xE921E t1_mov(0, 1)
+0:0xE921E t1_mov(0, vblank)
 
 # Spy Hunter [US 1.00]
 [PCSE00068, eboot.bin, 0x9BB899D3]
 @FPS
-0:0xE91DA t1_mov(0, 1)
+0:0xE91DA t1_mov(0, vblank)
+
+# I am Setsuna [JP 1.00]
+[PCSG00756, eboot.bin, 0x89B603C7]
+@FPS
+0:0x186F4 010000E3
 
 # Ys Origin
 [PCSB01081, eboot.bin, 0x3A2C2B78] # [EU 1.02]
 @FPS
-0:0x1C8216 t1_mov(0, 1)
+0:0x1C8216 t1_mov(0, vblank)
 [PCSE01033, eboot.bin, 0x77611E13] # [US 1.02]
 @FPS
-0:0x1C8216 t1_mov(0, 1)
+0:0x1C8216 t1_mov(0, vblank)
 
 # Ys Origin [ASIA 1.00]
 [PCSH10049, eboot.bin, 0x145A65BD]
 @FPS
-0:0x1C9092 t1_mov(0, 1)
+0:0x1C9092 t1_mov(0, vblank)
 
 # Ukiyo nooushi [JP 1.00]
 [PCSG00480, eboot.bin, 0xF0C9262A]
 @FPS
-0:0x2CD960 t1_mov(0, 1)
+0:0x2CD960 t1_mov(0, vblank)
 
 # Mahouka Koukou noettousei: Out of Order [JP 1.02]
 [PCSG00456, eboot.bin, 0x0104460F]
 @FPS
-0:0x3225CA t1_mov(0, 1)
+0:0x3225CA t1_mov(0, vblank)
 
 # Projectoot
 [PCSB00650, eboot.bin, 0x5001CEBE] # [EU 1.00]
 @FPS
-0:0x11745C t1_mov(0, 1)
+0:0x11745C t1_mov(0, vblank)
 [PCSE00486, eboot.bin, 0x5001CEBE] # [US 1.00]
 @FPS
-0:0x11745C t1_mov(0, 1)
+0:0x11745C t1_mov(0, vblank)
 
 # Projectoot [JP 1.00]
 [PCSG00783, eboot.bin, 0x88F8E42C]
 @FPS
-0:0x1175DC t1_mov(0, 1)
+0:0x1175DC t1_mov(0, vblank)
 
 # Oddworld: Munch's Oddysee HD
 [PCSB00275, eboot.bin, 0x4761DCC0] # [EU 1.02]
 @FPS
-0:0x10ECEE t1_mov(1, 3)
-0:0x269490 t1_mov(0, 1)
+0:0x10ECEE t1_mov(1, 4 - vblank)
+0:0x269490 t1_mov(0, vblank)
 [PCSE00369, eboot.bin, 0x4761DCC0] # [US 1.02]
 @FPS
-0:0x10ECEE t1_mov(1, 3)
-0:0x269490 t1_mov(0, 1)
+0:0x10ECEE t1_mov(1, 4 - vblank)
+0:0x269490 t1_mov(0, vblank)
