@@ -45,9 +45,7 @@
 @FPS
 0:0x136C4 t1_mov(0, vblank)
 0:0x13948 F7EE000A
-
-# Hatsune Miku: Project Diva f [JP 1.01]
-[PCSG00074, eboot.bin, 0xD3BDB4F5]
+[PCSG00074, eboot.bin, 0xD3BDB4F5] # [JP 1.01]
 @FPS
 0:0x12582 t1_mov(0, vblank)
 0:0x12814 F7EE000A
@@ -61,15 +59,11 @@
 @FPS
 0:0xA994 t1_mov(0, vblank)
 0:0xAAF2 F7EE000A
-
-# Hatsune Miku: Project Diva F 2nd [JP 1.01]
-[PCSG00205, eboot.bin, 0x4AAABD3D]
+[PCSG00205, eboot.bin, 0x4AAABD3D] # [JP 1.01]
 @FPS
 0:0xA95C t1_mov(0, vblank)
 0:0xAABA F7EE000A
-
-# Hatsune Miku: Project Diva F 2nd [ASIA 1.00]
-[PCSH00088, eboot.bin, 0xB499AC54]
+[PCSH00088, eboot.bin, 0xB499AC54] # [ASIA 1.00]
 @FPS
 0:0xA994 t1_mov(0, vblank)
 0:0xAAF2 F7EE000A
@@ -115,16 +109,46 @@
 0:0x4E384 t1_mov(0, vblank)
 0:0x4E4E0 F7EE000A
 
-# Projectoot
+# Persona 3 Dancing
+[PCSE01274, eboot.bin] # [US 1.00]
+@Auto play
+0:0x11BD70 nop
+@Intro skip
+0:0x1980F2 nop
+
+# Persona 4 Dancing
+[PCSE00764, eboot.bin] # [US 1.01]
+@Auto play
+0:0xA9A0C nop
+@Intro skip
+0:0x126F04 nop
+
+# Persona 5 Dancing
+[PCSE01275, eboot.bin] # [US 1.00]
+@Auto play
+0:0x11E910 nop
+@Intro skip
+0:0x19BC66 nop
+
+# Persona 4 Golden
+[PCSB00245, eboot.bin] # [EU 1.00]
+@Skip intro
+0:0x243C40 nop
+[PCSE00120, eboot.bin] # [US 1.00]
+@Skip intro
+0:0x243C40 nop
+[PCSG00563, eboot.bin] # [JP 1.00]
+@Skip intro
+0:0x243E94 nop
+
+# Projectroot
 [PCSB00650, eboot.bin, 0x5001CEBE] # [EU 1.00]
 @FPS
 0:0x11745C t1_mov(0, vblank)
 [PCSE00486, eboot.bin, 0x5001CEBE] # [US 1.00]
 @FPS
 0:0x11745C t1_mov(0, vblank)
-
-# Projectoot [JP 1.00]
-[PCSG00783, eboot.bin, 0x88F8E42C]
+[PCSG00783, eboot.bin, 0x88F8E42C] # [JP 1.00]
 @FPS
 0:0x1175DC t1_mov(0, vblank)
 
@@ -211,8 +235,6 @@
 @FPS
 0:0x2F5D06 FCF022E8 12E0
 0:0x2F5D46 8042
-
-# Wipeout 2048
 [PCSC00006, eboot.bin, 0xD4C31BD2] # [JP 1.04]
 @FPS
 0:0x2F5D0A FCF022E8 12E0
@@ -303,9 +325,7 @@
 [PCSE01033, eboot.bin, 0x77611E13] # [US 1.02]
 @FPS
 0:0x1C8216 t1_mov(0, vblank)
-
-# Ys Origin [ASIA 1.00]
-[PCSH10049, eboot.bin, 0x145A65BD]
+[PCSH10049, eboot.bin, 0x145A65BD] # [ASIA 1.00]
 @FPS
 0:0x1C9092 t1_mov(0, vblank)
 
